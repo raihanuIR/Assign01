@@ -9,7 +9,7 @@
   
 }
 
-.btn{
+.btn-one{
   background-color: #30B868;
   border: none;
   padding: 12px 16px;
@@ -17,6 +17,20 @@
   border-radius: 4px;
   color: rgba(255, 255, 255, 1) ;
   font-weight: 600;
+  /* display: inline-flex; */
+  gap: 10px;
+}
+
+.btn-two{
+  background-color: #30B868;
+  border: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 1) ;
+  font-weight: 600;
+  display: inline-flex;
+  gap: 10px;
 }
 
 .bar{
@@ -38,6 +52,7 @@
   gap: 32px;
   align-items: center;
 }
+
 .bar nav .menu a{
   font-size: 16px;
   font-weight: 500;
@@ -51,6 +66,7 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 674px ;
+  padding: 115.5px 120px 179.5px 120px;
   /* padding-top: 70px;
   padding-right: 120px;
   padding-bottom: 134px;
@@ -58,12 +74,11 @@ header{
 }
 
 header .banner {
-  padding: 115.5px 120px 179.5px 120px;
   gap: 32px;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  border: none;
-  justify-content: center; */
+  align-items: center;
+  
 }
 header .banner .banner-text h1{
   font-weight: 700;
@@ -71,8 +86,7 @@ header .banner .banner-text h1{
   line-height: 84px;
   text-align: center;
   color: rgba(255, 255, 255, 1);
-  margin-top: 16px;
-  margin-bottom: 16px;
+  max-width: 770px;
 }
 header .banner .banner-text h1 span{
   color:rgba(48, 184, 104, 1);
@@ -100,9 +114,10 @@ header .banner .banner-button .tpt{
   border-radius: 4px;
   color: rgba(255, 255, 255, 1) ;
   font-weight: 600;
+  gap: 10px;
 }
 
-header .banner .circle {
+header .banner .circle-box {
   border-radius: 1000px;
   padding: 8px 12px;
   gap: 6px;
@@ -110,14 +125,53 @@ header .banner .circle {
   max-width: 229px;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   background-color: rgba(255, 255, 255, 1) ;
 }
 
-header .banner .circle p{
+header .banner .circle-box p{
   font-weight: 500px;
   font-size: 16px;
   color: #30B868;
+}
+
+header .banner .circle-box .circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+header .banner .circle-box .circle .outer{
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: rgba(70, 145, 101, .2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+header .banner .circle-box .circle .middle{
+  width: 12px;
+  height: 12px;
+  border-radius: 8px;
+  background-color: rgba(70, 145, 101, .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .banner .circle-box .circle .inner{
+  width: 6px;
+  height: 6px;
+  border-radius: 8px;
+  background-color: rgba(70, 145, 101, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #feed {
@@ -125,6 +179,7 @@ header .banner .circle p{
   padding-left: 120px;
   /* padding: 120px; */
 }
+
 /* #feed .feed-cont .section-heading {
   text-align: center ;
   margin-top: 50px;
@@ -275,12 +330,61 @@ header .banner .circle p{
   margin-top: 16px;
 }
 
+footer{
+  background-color: rgba(0, 25, 49, 1) ;
+  /* padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 120px; */
+  max-height: 348px;
+  padding: 120px 120px 30px 120px;
+  border-top: 1px;
+}
 
+footer .social-section{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1360px;
+}
 
+footer .social-section .social-links{
+  max-width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
 
+footer .social-section .social-links p{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color:rgba(255, 255, 255, 1);
+  margin-bottom: 16px;
+}
+footer .social-section .social-links .links{
+  color: white;
+  text-decoration: none;
+  gap: 16px;
+}
 
+footer .social-section .social-links .links a{
+  color: inherit;
+}
 
+footer .copyright{
+  padding-top: 30px;
+  margin-top: 80px;
+  border-top: 1px solid rgba(229, 231, 235, .5) ;
+}
 
+footer .copyright p{
+  
+  text-align: center;
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color:rgba(250, 250, 250, 1);
+}
 
 
 
