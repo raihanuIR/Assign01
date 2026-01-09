@@ -17,7 +17,6 @@
   border-radius: 4px;
   color: rgba(255, 255, 255, 1) ;
   font-weight: 600;
-  
 }
 
 .bar{
@@ -234,8 +233,47 @@ header .banner .circle p{
   margin-bottom: 16px;
 }
 
+#challange {
+  padding-top: 2px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 120px;
+}
 
+#challange .challange-cont{
+  padding: 80px 40px;
+  background-color: rgba(247, 246, 242, 1);
+  text-align: center;
+  gap: 24px;
+  
+}
+#challange .challange-cont .ready h1{
+  font-weight: 700;
+  font-size: 40px;
+  color:rgba(0, 25, 49, 1);
+  margin-bottom: 16px;
+}
+#challange .challange-cont .ready p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color:#627382;
+  margin-bottom: 24px;
+}
 
+#challange .challange-cont .button-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#challange .challange-cont .button-box p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color:#627382;
+  margin-top: 16px;
+}
 
 
 
