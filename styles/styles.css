@@ -120,6 +120,7 @@ header .banner .banner-button{
   display: flex;
   justify-content: center;
   margin-top: 32px;
+  max-width: 465px ;
 }
 
 header .banner .banner-button .tpt{
