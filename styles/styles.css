@@ -19,6 +19,7 @@
   font-weight: 600;
   /* display: inline-flex; */
   gap: 10px;
+  white-space: nowrap;
 }
 
 .btn-one:hover{
@@ -36,6 +37,7 @@
   font-weight: 600;
   display: inline-flex;
   gap: 10px;
+  white-space: nowrap;
 }
 
 .btn-two:hover{
@@ -45,6 +47,7 @@
 
 .bar{
   padding: 16px 120px;
+  /* max-width: 1600px; */
 }
 
 .bar nav{
@@ -88,6 +91,9 @@ header .banner {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 75%;
+  max-width: 1360px;
+  margin: 0 auto;
   
 }
 header .banner .banner-text h1{
@@ -198,10 +204,9 @@ header .banner .circle-box .circle .inner{
   /* padding: 120px; */
 }
 
-/* #feed .feed-cont .section-heading {
-  text-align: center ;
-  margin-top: 50px;
-} */
+#feed .feed-cont .section-heading {
+  max-width: 1360px;
+}
 
 #feed .feed-cont .section-heading h1{
   margin-top: 50px;
@@ -223,7 +228,7 @@ header .banner .circle-box .circle .inner{
   margin-top: 44px;
   display: flex;
   gap: 24px;
-  
+  max-width: 1360px;
 }
 
 #feed .feed-cont .feed-box .feed-card{
@@ -276,7 +281,9 @@ header .banner .circle-box .circle .inner{
 #solution .solution-cont .ans{
   text-align: left;
   margin: 102px auto;
+  max-width: 700px;
 }
+
 #solution .solution-cont .ans .section-heading h3{
   font-weight: 500px;
   font-size: 16px;
@@ -398,7 +405,6 @@ footer .copyright{
 footer .copyright p{
   
   text-align: center;
-  
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
