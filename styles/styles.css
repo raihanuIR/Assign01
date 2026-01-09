@@ -267,6 +267,7 @@ header .banner .circle-box .circle .inner{
   display: flex;
   justify-content: left;
   gap: 60px;
+  max-width: 1360px;
 }
 #solution .solution-cont .bulb img{
   max-width: 600px;
@@ -403,9 +404,6 @@ footer .copyright p{
   line-height: 24px;
   color:rgba(250, 250, 250, 1);
 }
-
-
-
 
 
 
